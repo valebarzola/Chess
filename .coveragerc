@@ -1,0 +1,22 @@
+[run]
+source = juego
+
+omit =
+    env/*
+    */test*
+    */__init__.py
+    test_*
+    test/*
+    tests/*
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    def setUp
+    def test_
+    return raw_input
+    print
+    if __name__ == '__main__':
+    def suite
+    __str__
+    
